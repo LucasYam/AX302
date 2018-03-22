@@ -18,7 +18,7 @@
      function create(){
      	game.physics.startSystem(Phaser.Physics.ARCADE);
      	game.add.sprite(0,0,'sky');
-     	platforms = game.add.phyisicsGroup();
+     	platforms = game.add.physicsGroup();
      	platfroms.enableBody = true;
      	var ground = platforms.create(0,550,'ground');
      	ground.scale.setTo(2,2);
