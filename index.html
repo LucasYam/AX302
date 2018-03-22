@@ -55,6 +55,7 @@
      		star.body.gravity.y = 200;
      		star.body.bounce.y = 0.7 + Math.random() + 0.2;
        	}
+          cursors = game.input.keyboard.createCursorKeys();
      }
      function update(){
      	game.physics.arcade.collide(player, platforms);
